@@ -5,11 +5,11 @@ Comparative content analysis of MinnPost and Sahan Journal coverage on public sa
 
 **A Digital Content Analysis of Nonprofit News Coverage in the Twin Cities**
 
-This repository contains the tools, data, and documentation for a comparative content analysis project examining the editorial practices and narrative strategies of two influential nonprofit newsrooms in the Twin Cities region: *MinnPost* and *Sahan Journal*. The project investigates how these newsrooms frame and report on three structurally embedded civic issues—public safety and policing, educational inequities, and environmental justice—with an eye toward understanding how nonprofit journalism engages local publics, represents marginalized communities, and navigates institutional and civic obligations.
+This repository contains the tools, data, and documentation for a comparative content analysis project examining the editorial practices and narrative strategies of two influential nonprofit newsrooms in the Twin Cities region: *MinnPost* and *Sahan Journal*. The project investigates how these newsrooms frame and report on three structurally embedded civic issues—public safety and policing, educational inequities, and environmental justice—with an eye toward understanding how nonprofit journalism engages local publics, represents communities, and navigates institutional and civic obligations.
 
 ## 🧠 Project Rationale
 
-In the contemporary media environment, nonprofit news organizations have emerged as vital institutions for local accountability, particularly in under-served and structurally excluded communities. Yet little empirical work has examined how these outlets construct the "local public" through coverage, whose voices are elevated or excluded, and what ideological or narrative frameworks guide their reporting.
+In the contemporary media environment, nonprofit news organizations have emerged as vital institutions for local communities. Yet little empirical work has examined how these outlets construct the "local public" through coverage, whose voices are elevated or excluded, and what ideological or narrative frameworks guide their reporting.
 
 This project aims to bridge that gap by combining **digital methods**, **qualitative coding**, and **comparative analysis** to examine:
 - **Media framing of structural issues**
@@ -39,9 +39,9 @@ This project aims to bridge that gap by combining **digital methods**, **qualita
 ### 2. Comparative Content Analysis
 - A purposive sample of 20–30 articles per outlet (~60 total).
 - Topics include:
-  - Public safety and policing (e.g., “police reform,” “MPD,” “public safety charter”)
-  - Education inequities (e.g., “achievement gap,” “Minneapolis Public Schools,” “teacher strike”)
-  - Environmental justice/urban redevelopment (e.g., “Highway 252,” “pollution,” “North Minneapolis redevelopment”)
+  - Public safety and policing
+  - Education inequities 
+  - Environmental justice/urban redevelopment 
 - Both news reporting and opinion pieces are included.
 - Coded for:
   - Framing (structural, institutional, individual)
@@ -56,4 +56,4 @@ This project aims to bridge that gap by combining **digital methods**, **qualita
 - **NVivo/Dedoose** for qualitative analysis and thematic coding
 - **Jupyter Notebooks** for exploratory data analysis and visualization
 
-## 🗂️ Repository Structure
+

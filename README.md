@@ -1,6 +1,9 @@
 # nonprofit-news-twin-cities
-Comparative content analysis of MinnPost and Sahan Journal coverage on public safety, education inequities, and environmental justice in the Twin Cities using web scraping and qualitative methods.
+
+Comparative content analysis of MinnPost and Sahan Journal coverage on public safety, education inequities, and environmental justice in the Twin Cities using web scraping, full-text parsing, and qualitative methods.
+
 ![SahanvsMinnPost](https://github.com/Endalk-Chala/nonprofit-news-twin-cities/blob/a6ac618d6e4afdb1270b8300129acfdf522f7fa5/Sahan%20vs%20MinnPost.png)
+
 # Twin Cities News Comparison
 
 **A Digital Content Analysis of Nonprofit News Coverage in the Twin Cities**
@@ -28,20 +31,30 @@ This project aims to bridge that gap by combining **digital methods**, **qualita
 2. What types of sources are most frequently quoted or cited across these topics?
 3. How do these newsrooms differ in their editorial orientation and imagined audiences?
 4. In what ways do nonprofit missions shape narrative strategies and the construction of civic identity?
+5. How do term co-occurrences reflect thematic emphasis and framing patterns across the two newsrooms?
 
 ## 🧰 Methodology
 
-### 1. Semi-Structured Interviews
+### 1. Web Scraping and Data Collection
+- Collected over 100 articles from both outlets between **March 2024 and December 2024**.
+- Used Python with `requests`, `BeautifulSoup`, and `newspaper3k` for full-text scraping.
+- Filtered articles by topic section (Metro / Democracy & Politics) and publication date.
+
+### 2. Full-Text Analysis and Co-occurrence Mapping
+- Preprocessed text to extract keywords and build term co-occurrence networks.
+- Used `NetworkX` to visualize how issues and themes cluster together in discourse.
+
+### 3. Semi-Structured Interviews
 - Interviews with 4–6 newsroom personnel at each outlet (editors, reporters, audience leads).
 - Focused on editorial priorities, community outreach, and institutional challenges.
 - Transcribed and thematically coded in NVivo or Dedoose.
 
-### 2. Comparative Content Analysis
+### 4. Comparative Content Analysis
 - A purposive sample of 20–30 articles per outlet (~60 total).
 - Topics include:
   - Public safety and policing
   - Education inequities 
-  - Environmental justice/urban redevelopment 
+  - Environmental justice / urban redevelopment 
 - Both news reporting and opinion pieces are included.
 - Coded for:
   - Framing (structural, institutional, individual)
@@ -49,11 +62,18 @@ This project aims to bridge that gap by combining **digital methods**, **qualita
   - Language and tone (emotive, neutral, advocacy-oriented)
   - Audience positioning and civic engagement cues
   - Visual representation (photos, captions, imagery)
-    
-  - ### 3. Tools & Technologies
-- **Python** for article scraping using [`newspaper3k`](https://newspaper.readthedocs.io/en/latest/)
-- **Pandas** for data wrangling and preprocessing
-- **NVivo/Dedoose** for qualitative analysis and thematic coding
-- **Jupyter Notebooks** for exploratory data analysis and visualization
+
+## 🛠️ Tools & Technologies
+- **Python** for article scraping and text processing
+  - `newspaper3k`, `BeautifulSoup`, `requests`, `pandas`, `nltk`
+- **NetworkX** and `matplotlib` for co-occurrence network visualization
+- **NVivo / Dedoose** for qualitative thematic coding
+- **Jupyter Notebooks** for exploratory data analysis and interactive workflows
+- **Gephi** for advanced network graph modeling
+
+---
+
+This repository is part of an ongoing research project on nonprofit journalism, media framing, and civic discourse in the Twin Cities. Feedback and collaboration are welcome.
+
 
 
